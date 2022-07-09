@@ -1,0 +1,388 @@
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/bgc.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-item {
+  margin-right: 3.5vw;
+}
+
+.toggler-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.header-bottom {
+  width: 100vw;
+  position: absolute;
+  height: 10vh;
+  bottom: 0%;
+  border-top: 0.1vh solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bottom-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 78vw;
+}
+
+.header-bottom-navbar-container {
+  display: flex;
+  flex-direction: row;
+  height: 6vh;
+  width: 13vw;
+  align-items: center;
+  justify-content: center;
+  border-right: 0.1vh solid white;
+  margin-left: 0.6vw;
+}
+
+.header-bottom-navbar-container-img {
+  margin-right: 0.6vw;
+  max-width: 100%;
+}
+
+.header-hero {
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-hero-title {
+  color: white;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.header-hero-btn {
+  color: white;
+  background-color: rgba(51, 51, 51, 1);
+  width: 14vw;
+  height: 5vh;
+  min-width: 261px;
+  min-height: 51px;
+  border: 0.1vh solid white;
+  margin-top: 2vh;
+  transition-duration: 0.4s;
+}
+
+.header-hero-btn:hover {
+  width: 17vw;
+}
+
+.menu-smalltitle {
+  width: 100vw;
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 2.7vh;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-bigtitle {
+  width: 100vw;
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 400;
+}
+
+.menu-container-btn {
+  width: 171px;
+  height: 61px;
+  border: 0px;
+  color: black;
+  background: url(../images/menu-button-bg.png);
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.menu-container-btn:hover {
+  background: url(../images/menu-button-bg-clicked.png);
+  color: white;
+}
+
+#menu-main-btn {
+  width: 350px;
+  height: 280px;
+  border: 0px;
+}
+
+.menu-main-btn1 {
+  background: url(../images/menu-item1.png);
+}
+
+.menu-main-btn2 {
+  background: url(../images/menu-item2.png);
+}
+
+.menu-main-btn3 {
+  background: url(../images/menu-item3.png);
+}
+
+.menu-main-btn4 {
+  background: url(../images/menu-item4.png);
+}
+
+.menu-main-btn5 {
+  background: url(../images/menu-item5.png);
+}
+
+.menu-main-btn6 {
+  background: url(../images/menu-item6.png);
+}
+
+#menu-main-btn:hover {
+}
+
+.hero {
+  background: url(../images/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.hero-smalltitle {
+  padding-top: 5vh;
+  width: 100vw;
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 2.7vh;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-bigtitle {
+  width: 100vw;
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 400;
+}
+
+.hero-description {
+  width: 60vw;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.5vh;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6vh;
+}
+
+.hero-container-btn {
+  color: rgba(51, 51, 51, 1);
+  background-color: white;
+  width: 11vw;
+  font-size: 2vh;
+  height: 5vh;
+  min-width: 224px;
+  min-height: 51px;
+  border: 0.1vh solid white;
+  margin-top: 2vh;
+  transition-duration: 0.4s;
+}
+
+.hero-container-btn:hover {
+  background: transparent;
+  color: white;
+}
+
+.socials-blog-smalltitle {
+  padding-top: 5vh;
+  width: 100vw;
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 2.7vh;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socials-blog-bigtitle {
+  width: 100vw;
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 400;
+}
+
+#socials-blog-container-btn {
+  width: 350px;
+  height: 370px;
+  border: 0px;
+}
+
+.socials-blog-container-btn1 {
+  background: url(../images/blog__item1.png);
+}
+
+.socials-blog-container-btn2 {
+  background: url(../images/blog__item1.png);
+}
+
+.socials-blog-container-btn3 {
+  background: url(../images/blog__item1.png);
+}
+
+.socials-blog-main-btn {
+  color: white;
+  background-color: rgba(51, 51, 51, 1);
+  width: 14vw;
+  height: 5vh;
+  min-width: 261px;
+  min-height: 51px;
+  border: 0px;
+  transition-duration: 0.4s;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.socials-blog-main-btn:hover {
+  border: 0.2vh solid rgba(51, 51, 51, 1);
+  background-color: white;
+  color: rgba(51, 51, 51, 1);
+}
+
+.socials-networks-smalltitle {
+  padding-top: 5vh;
+  width: 100vw;
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 2.7vh;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socials-networks-bigtitle {
+  width: 100vw;
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 400;
+}
+
+#socials-networks-btn {
+  background-position: center;
+  background-size: cover;
+  width: 90vw;
+  height: 10vh;
+  border: 0px;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+
+.socials-networks-btn-1 {
+  background: url(../images/gallery_bg_0.png);
+}
+
+.socials-networks-btn-2 {
+  background: url(../images/gallery_bg_1.png);
+}
+
+.socials-networks-btn-icon {
+  width: 5.5vw;
+}
+
+#socials-networks-btn:hover > .socials-networks-btn-icon {
+  width: 6.3vw;
+}
+
+/* Laptops */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1180px) {
+  #socials-blog-container-btn {
+    width: 290px;
+    height: 307px;
+    background-size: 100%;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-device-width: 567px) and (max-device-width: 991px) {
+  #socials-blog-container-btn {
+    width: 220px;
+    height: 233px;
+    background-size: 100%;
+  }
+}
+
+/* Phones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 566px) {
+  .toggler-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-bottom {
+    display: none;
+  }
+
+  .menu-bigtitle {
+    font-size: 4.1vh;
+  }
+
+  .hero-bigtitle {
+    font-size: 4.1vh;
+  }
+
+  .socials-blog-bigtitle {
+    font-size: 4.1vh;
+  }
+
+  .socials-networks-bigtitle {
+    font-size: 4.1vh;
+  }
+
+  .hero-description {
+    font-size: 2vh;
+  }
+
+  .menu-container-btn {
+    width: 140px;
+    height: 50px;
+    background-size: 100%;
+  }
+
+  #menu-main-btn {
+    width: 300px;
+    height: 240px;
+    background-size: 100%;
+  }
+
+  #socials-blog-container-btn {
+    width: 290px;
+    height: 307px;
+    background-size: 100%;
+  }
+
+  #socials-networks-item-img {
+    display: none;
+  }
+
+  #socials-networks-item-btn {
+    padding-right: auto !important;
+  }
+}
